@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="craps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Craps/craps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

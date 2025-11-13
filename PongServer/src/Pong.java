@@ -30,7 +30,7 @@ public class Pong extends ListeningGameComponent
 			{
 				server = new ServerSocket(4400);
 				JOptionPane.showMessageDialog(null, InetAddress.getLocalHost());
-				System.out.println("Waiting...");
+				System.out.printf("Waiting on %s...\n", InetAddress.getLocalHost().toString() );
 				user = server.accept();
 				System.out.println("Reached!");
 				in = new ObjectInputStream(user.getInputStream());

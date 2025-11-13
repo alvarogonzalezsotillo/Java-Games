@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mathhero">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MathHero/mathhero.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

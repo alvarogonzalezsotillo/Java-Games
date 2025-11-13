@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="catch">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Catch/catch.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

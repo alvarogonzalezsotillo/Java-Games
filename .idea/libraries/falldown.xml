@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="falldown">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FallDown/falldown.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
