@@ -20,7 +20,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws ReflectiveOperationException{
-        final String[] games = {"Blackjack", "PlayCatch", "Comet", "PlayCraps", "PlayFallDown", "PlayFrogger", "MathHero", "PlayPong", "PlayTetris"};
+        final String[] games = {"Blackjack", "PlayCatch", "Play", "GravitySoccer", "PlayCraps", "PlayFallDown", "PlayFrogger", "MathHero", "PlayPong", "PlayTetris"};
         final var scanner = new java.util.Scanner(System.in);
         var juego = menu("Elije un juego, o 0 para salir", games, scanner );
         Class.forName(juego).getMethod("main", String[].class ).invoke( null, (Object)new String[0] );
